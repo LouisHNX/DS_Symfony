@@ -1,0 +1,8 @@
+{% for pokemon in pokemons %}
+    {{pokemon.name}}<br>
+    {{pokemon.description}}<br>
+    {#{% for types in pokemon.types %}
+        {{ pokemon.types[0] }}<br>
+    {% endfor %}#}
+    <br>
+{% endfor %}
